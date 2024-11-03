@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #777777;
+    background: url(arkaplan.jpg);
+    background-size: cover;
+    background-position: center; 
+    padding-top: 1%;
+}
+#temel{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#menu, #alt{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(42, 12, 7, 0.7);
+}
+
+#menu{left: 0;top: 0;}
+#alt{left: 0;bottom: 0;}
+
+.sayfalar{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 160px);
+    overflow-y: scroll;
+    left: 0;
+    top: 80px;
+    transform: scale(0);
+    transition: all .3s ease;
+
+    
+}
+ul{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+ul li label{
+    padding: 10px;
+    margin: 5px;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#sayfa1{background-color: #f8f8f8;
+    background: url(arkaplan.jpg);
+    background-size: cover;
+    background-position: center; 
+    transform: scale(1);}
+#sayfa2{background-color: #eee;
+    background: url(arkaplan.jpg);
+    background-size: cover;
+    background-position: center; }
+#sayfa3{background-color: #ccc;
+    background: url(arkaplan.jpg);
+    background-size: cover;
+    background-position: center; }
+#sayfa4{background-color: #f8f8f8;
+    background: url(arkaplan.jpg);
+    background-size: cover;
+    background-position: center; }
+
+h1{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.cover-content
+{
+    background-color: rgba(34, 4, 0, 0.7);
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    padding: 5px;
+    margin: 30px;
+    padding:  10px ;
+}
+
+
+
+
+h2{
+    
+    font-size: 50px;
+    color: rgb(202, 202, 202);
+    letter-spacing: 0.08em;
+    background-size: cover;
+    text-align: center;
+    background-size: cover;
+    text-decoration-line: underline;
+
+}
+
+
+h1,  p {
+    text-align: center;
+    background-size: cover;
+    
+}
+h5{
+    text-align: right;
+    color: rgb(115, 113, 115);
+    background-size: cover;
+}
+
+h4{
+color: red;
+background-size: cover;
+}
+
+h3{
+    color: greenyellow;
+    background-size: cover;
+}
+h1{
+
+    color: white;
+    font-size: 30px;
+}
+p{
+    color: #dedec2;
+    letter-spacing: 0.08em;
+    background-size: cover;
+    
+
+}

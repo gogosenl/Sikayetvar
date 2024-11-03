@@ -1,0 +1,99 @@
+body{
+   
+    background: url(arkaplan.jpg);
+    
+    background-size: cover;
+    
+    
+}
+
+.class{
+    font-size: 100px;
+}
+
+
+h1,  p{
+    text-align: center;
+    background-size: cover;
+}
+h5{
+    text-align: right;
+    color: rgb(115, 113, 115);
+    background-size: cover;
+    
+}
+#yazma{
+    width: 200px;
+     height: 100px;
+     background-color: rgb(107, 58, 48);
+     color: rgb(255, 255, 255);
+     
+}
+h4{
+color: red;
+background-size: cover;
+}
+h3{
+    color: greenyellow;
+    background-size: cover;
+}
+h1{
+
+    color: white;
+    font-size: 30px;
+}
+p{
+    color: #dedec2;
+    letter-spacing: 0.08em;
+    background-size: cover;
+    
+
+}
+.cover-content
+{
+    background-color: rgba(34, 4, 0, 0.7);
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    padding: 5px;
+    margin: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:  10px ;
+}
+.buton{
+    width: 150px;
+    height: 30px;
+    right: 60%;
+    margin-left: 10%;
+    color :#000000;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 35px;
+    align-items: center;
+    position: relative;
+    right: -60px;
+    
+  }
+  
+
+  .buton2{
+    width: 150px;
+    height: 60px;
+    right: 60%;
+    margin-left: 10%;
+    color :#000000;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 35px;
+    align-items: center;
+   
+    background-color: #dedec2; ;
+    
+    
+  }
+

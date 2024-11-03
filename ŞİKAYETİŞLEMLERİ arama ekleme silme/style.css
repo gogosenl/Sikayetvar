@@ -1,0 +1,124 @@
+body
+{
+   background-image: url(arkaplan.jpg);
+   
+    background-size: cover;
+    
+}
+
+
+.olustur
+{
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    width: 400px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    overflow: hidden;
+    background: grey;
+    font-size: large;
+    text-align: center;
+}
+.sil{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    overflow: hidden;
+    background: grey;
+    font-size: large;
+    text-align: center;
+}
+.degistir{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    width: 400px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    overflow: hidden;
+    background: grey;
+    font-size: large;
+    text-align: center;
+}
+.buton{
+    width: 150px;
+    height: 45px;
+    margin-left: 10%;
+    color :#ffffff;
+    margin-top: 15px;
+    background: linear-gradient(to right,#757575,#000000);
+    text-align: center;
+    font-size: 15px;
+    line-height: 35px;
+  }
+  .buton:hover {background: #757575}
+  .yeni{
+    border: 2px solid 
+
+  }
+  input[type=text]:focus {
+
+    border: 1px solid rgb(0, 1, 1) ;
+}  
+
+@media screen and (max-width: 1050px){
+   
+    
+    .sil{
+        width: 200px;
+    height: 250px;
+    transform: translate(-50%, -50%);
+    font-size: small;
+    
+    }
+
+    .degistir{
+        width: 200px;
+    height: 250px;
+    transform: translate(-50%, -50%);
+    font-size: small;
+    }
+    .olustur{
+        width: 200px;
+    height: 250px;
+    transform: translate(-50%, -50%);
+    font-size: small;
+    }
+    .buton{
+        width: 100px;
+        height: 25px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 610px){
+   
+    
+    .sil{
+        width: 100px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border-radius: 1px;
+    }
+
+    .degistir{
+        width: 100px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    }
+    .olustur{
+        width: 100px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    }
+  
+}

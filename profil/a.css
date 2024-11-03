@@ -1,0 +1,145 @@
+
+* {
+    font-family: Kumbh Sans;
+    font-size: 20px
+}
+
+p,span,h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: bisque
+}
+
+p,h1 {
+    font-weight: 700
+}
+
+span {
+    font-weight: 400;
+    margin-top: 5px;
+    color: #dcdaed
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url("arkaplan.jpg");
+    background-size: cover;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    overflow: hidden;
+    background: grey;
+
+}
+
+.card .user-details {
+    margin-top: 72px;
+    margin-bottom: 45px
+}
+
+.card .user-details #num {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 0px;    
+
+}
+
+.card .user-details span {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px
+}
+
+.card .photo {
+    width: 50%;
+    height: 100px;
+    border-radius: 13px 13px 0px 0px;
+}
+
+.card .avatar {
+    width: 96px;
+    height: 96px;
+    padding: 4px;
+    background: white;
+    position: relative;
+    border-radius: 50%;
+    left: 145px;
+    top: 45px
+}
+
+.card .insight {
+    width: 250px;
+    height: 47px;
+    justify-content: space-between;
+    margin: 24px auto 24px auto;
+    padding: 0px 47px
+}
+
+.card .insight .insight__span {
+    font-size: 14px
+}
+
+.card hr {
+    height: 2px;
+    background-color: #E7E7E7;
+    border: none;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+.buton{
+    width: 150px;
+    height: 45px;
+    margin-left: 10%;
+    color :#ffffff;
+    margin-top: 15px;
+    background: linear-gradient(to right,#757575,#000000);
+    text-align: center;
+    font-size: 15px;
+    line-height: 35px;
+  }
+  .buton:hover {background: #757575}

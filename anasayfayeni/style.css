@@ -1,0 +1,76 @@
+body{
+    background: url("arkaplan.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black, 
+               0 0 25px blue, 
+               0 0 5px darkblue;
+}
+.center h2{
+    color: rgb(210, 210, 210);
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    text-align: center;
+    
+        text-shadow: 2px 2px rgb(21, 0, 255);
+        text-decoration-line: underline;
+       
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons .button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgb(126, 126, 126);
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+}
+.button {
+
+    background-color: #ff0000;
+  
+    border: none;
+  
+    color: white;
+  
+    padding: 16px 32px;
+  
+    text-align: center;
+  
+    font-size: 16px;
+  
+    margin: 4px 2px;
+  
+    opacity: 0.6;
+  
+    transition: 0.3s;
+  
+    display: inline-block;
+  
+    text-decoration: none;
+  
+    cursor: pointer;
+  }
+  
+  .button:hover {opacity: 1}

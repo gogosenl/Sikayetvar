@@ -1,0 +1,80 @@
+body{
+    font-family: raleway;
+    background-color: #777777;
+    background: url(arkaplan.jpg);
+    
+    background-size: cover;
+    background-position: center; 
+    padding-top: 1%;
+}
+
+.class{
+    font-size: 100px;
+}
+
+
+h1,  p{
+    text-align: center;
+    background-size: cover;
+}
+h5{
+    text-align: right;
+    color: rgb(115, 113, 115);
+    background-size: cover;
+}
+
+h4{
+color: red;
+background-size: cover;
+}
+h3{
+    color: greenyellow;
+    background-size: cover;
+}
+h1{
+
+    color: white;
+    font-size: 30px;
+}
+p{
+    color: #dedec2;
+    letter-spacing: 0.08em;
+    background-size: cover;
+    
+
+}
+.cover-content
+{
+    background-color: rgba(34, 4, 0, 0.7);
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    padding: 5px;
+    margin: 30px;
+
+    padding:  10px ;
+}
+@media( max-width:1050px)
+{
+    .class{
+        font-size: 50px;
+    }
+    .cover-content{
+        width: 15%;
+    padding: 5px;
+    margin: 30px;
+    font-size: 10px;
+    }
+    h1{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 5px;
+    }
+    h4{
+        font-size: 5px;
+    }
+    h5{
+        font-size: 5px;
+    }
+}
